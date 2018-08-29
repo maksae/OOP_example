@@ -16,7 +16,7 @@ namespace OOP_Univer
 
         public Student(string name, string surname)
         {
-            Name = name;
+            this.Name = name;
             this.Surname = surname;
         }
     }

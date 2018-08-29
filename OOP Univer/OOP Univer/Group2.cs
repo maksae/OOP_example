@@ -15,9 +15,9 @@ namespace OOP_Univer
             Console.WriteLine(this.GroupName + " создана.");
         }
 
-        public override void Test(int i)
+        public override void Test(int i)    //студенты второй группы проходят тестирование
         {
-            Console.WriteLine("Студент {0} сдал письменный экзамен.", students[i].Surname);
+            Console.WriteLine("Студент {0} успешно прошел тестирование.", students[i].Surname);
         }
     }
 }

@@ -5,3 +5,10 @@ c:\users\adm\source\repos\OOP Univer\OOP Univer\bin\Debug\OOP Univer.exe
 c:\users\adm\source\repos\OOP Univer\OOP Univer\bin\Debug\OOP Univer.pdb
 c:\users\adm\source\repos\OOP Univer\OOP Univer\obj\Debug\OOP Univer.exe
 c:\users\adm\source\repos\OOP Univer\OOP Univer\obj\Debug\OOP Univer.pdb
+E:\Git\example\OOP Univer\OOP Univer\bin\Debug\OOP Univer.exe.config
+E:\Git\example\OOP Univer\OOP Univer\bin\Debug\OOP Univer.exe
+E:\Git\example\OOP Univer\OOP Univer\bin\Debug\OOP Univer.pdb
+E:\Git\example\OOP Univer\OOP Univer\obj\Debug\OOP Univer.csprojResolveAssemblyReference.cache
+E:\Git\example\OOP Univer\OOP Univer\obj\Debug\OOP Univer.csproj.CoreCompileInputs.cache
+E:\Git\example\OOP Univer\OOP Univer\obj\Debug\OOP Univer.exe
+E:\Git\example\OOP Univer\OOP Univer\obj\Debug\OOP Univer.pdb

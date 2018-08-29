@@ -13,7 +13,7 @@ namespace OOP_Univer
         public void ShowStudents()  //вывести список студентов
         {
             
-            Console.WriteLine("список студентов в группе");
+            Console.WriteLine("Список студентов в группе");
             for (int i = 0; i < students.Length; i++)
             {
                 if (students[i] == null)
@@ -35,11 +35,12 @@ namespace OOP_Univer
             {
                 if (students[i] == null)
                 {
-                    Console.WriteLine("введите имя студета:");
+                    Console.WriteLine("Введите имя студета:");
                     string name = Console.ReadLine();
 
-                    Console.WriteLine("введите фамилию студета:");
+                    Console.WriteLine("Введите фамилию студета:");
                     string fam = Console.ReadLine();
+
                     students[i] = new Student(name, fam);
                     flag = true;
                     Test(i);
@@ -60,14 +61,14 @@ namespace OOP_Univer
 
             if (flag == false)
             {
-                Console.WriteLine("группа полная, зачислить студента невозможно.");
+                Console.WriteLine("Группа полная, зачислить студента невозможно.");
                 Delay();
             }
         }
 
         public void DeleteStudent() //удалить студента
         {
-            Console.WriteLine("введите фамилию студента на отчисление:");
+            Console.WriteLine("Введите фамилию студента на отчисление:");
             string famV = Console.ReadLine();
             string famN = famV;
 
@@ -87,7 +88,7 @@ namespace OOP_Univer
 
             if (famN == null)//вывод результата отчисления студента
             {
-                Console.WriteLine("студент " + famV + " отчислен.");
+                Console.WriteLine("Студент " + famV + " отчислен.");
                 Delay();
             }
             else
@@ -99,7 +100,7 @@ namespace OOP_Univer
 
         public virtual void Test(int i)
         {
-            Console.WriteLine("Студент {0} прошел тестирование.", students[i].Surname);
+            Console.WriteLine("Студент {0} сдал вступительный экзамен.", students[i].Surname);
             Delay();
         }
 

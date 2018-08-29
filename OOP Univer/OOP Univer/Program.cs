@@ -35,7 +35,7 @@ namespace OOP_Univer
                     var input = Console.ReadLine();
                     if (int.TryParse(input, out n))
                     {
-                        n -= 1;
+                        n--;
                         if (n < 0 || n >= group.Length)
                         {
                             Console.WriteLine("Вы ввели неверный номер группы. Введите целое число от 1 до {0}", group.Length);
@@ -50,14 +50,16 @@ namespace OOP_Univer
                 while (n<0 || n>=group.Length);
 
                 //если введено корректное значение, то переходим к управлению выбранной группой
-                for (; ; )
+                while (true)
                 {
-                    Console.WriteLine(new string('_', 50));
+                    Console.WriteLine(new string('_', 80));
 
                     Console.WriteLine("Команды управления группой студентов - {0}: 1 - список студентов;" +
-                    " 2 - добавить студента в группу; 3 - отчислить стуента; 4 - выйти из управления группой", group[n].GroupName);
-                    Console.WriteLine("Введите команду:");
+                    " 2 - добавить студента в группу; 3 - отчислить студента; 4 - выйти из управления группой", group[n].GroupName);
 
+                    Console.WriteLine(new string('_', 80));
+                    Console.WriteLine("Введите команду:");
+             
                     string command = null;
                     command = Console.ReadLine();
 
